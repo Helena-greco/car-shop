@@ -31,6 +31,6 @@ describe("Testa a camada service", () => {
 
     const carCreated = await carService.create(car);
 
-    expect(car).to.be.an('object');
+    expect(carCreated).to.be.an('object');
   });
 });
